@@ -69,13 +69,13 @@ footer {
 .fade-in {
   animation: fadeInSlide 1s ease-out forwards;
 }
-.typing-effect {
+.typing-effect {color: #ff5722;
   font-family: monospace;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   width: 0;
-  animation: typing 3.5s steps(40, end),
+  animation: typing 3.5s steps(40, end),forwards; 
              blink-caret 0.75s step-end infinite;
 }
 
